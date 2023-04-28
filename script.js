@@ -180,3 +180,5 @@ currenciesUnique.forEach(function (value, _, map) {
   console.log(`${key}: ${value}`);
 });
 */
+
+//for attendance
