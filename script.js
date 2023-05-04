@@ -348,3 +348,36 @@ const totalDepositUSD = movements
   .reduce((acc, mov) => acc + mov, 0);
 
 console.log(totalDepositUSD);
+
+// const calcAverageHumanAge = function (ages) {
+//   const humanAges = ages.map(age => (age <= 2 ? 2 * age : 16 + age * 4));
+//   const adultDogs = humanAges.filter(age => age >= 18);
+//   const average =
+//     adultDogs.reduce((acc, age) => acc + age, 0) / adultDogs.length;
+
+//   return average;
+// };
+/*
+const calcAverageHumanAge = ages =>
+  ages
+    .map(age => (age <= 2 ? 2 * age : 16 + age * 4))
+    .filter(age => age >= 18)
+    .reduce((acc, age, i, arr) => acc + age / arr.length, 0);
+
+const avg1 = calcAverageHumanAge([5, 2, 4, 1, 15, 8, 3]);
+const avg2 = calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
+
+console.log(avg1);
+console.log(avg2);
+*/
+
+const firstWithdrawal = movements.find(mov => mov < 0);
+
+console.log(accounts);
+
+const account = accounts.find(acc => acc.owner === 'Jessica Davis');
+console.log(account);
+
+// const movementsUSDfor = [];
+// for (const mov of movements) movementsUSDfor.push(mov * euroToUsd);
+// console.log(movementsUSDfor);
