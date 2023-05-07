@@ -382,3 +382,4 @@ console.log(account);
 // for (const mov of movements) movementsUSDfor.push(mov * euroToUsd);
 // console.log(movementsUSDfor);
 //attendance
+//please go back to your schedule tomorrow
