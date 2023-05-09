@@ -383,3 +383,4 @@ console.log(account);
 // console.log(movementsUSDfor);
 //attendance
 //please go back to your schedule tomorrow
+//when are you going to go back to studying?
