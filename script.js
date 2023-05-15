@@ -386,3 +386,4 @@ console.log(account);
 //when are you going to go back to studying?
 //procrastination ongoing?
 //grabe wa jpn ka nibalik
+//please continue tomorrow 5/16
